@@ -1,4 +1,4 @@
-const URL = "./model/";
+const URL = "./tm-my-image-model (7)/";
 let model, webcam, labelContainer, maxPredictions;
 
 // Global state
@@ -570,6 +570,7 @@ document.getElementById("aboutBtn").addEventListener("click", () => {
   };
   closeInfoBtn.addEventListener("click", newCloseHandler);
 });
+
 
 
 
